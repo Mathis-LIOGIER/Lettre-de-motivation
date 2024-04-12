@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.header-button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bouton{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    padding: 10px 30px;
+    border-radius:  30px;
+    transition: background 0.5s;
+}
+
+.bouton:hover{
+    background: rgb(149, 148, 148);
+}
+
+.signature {
+    font-style: italic;
+    color: #888;
+    text-align: righ;
+    margin-top: 20px;
+}
